@@ -41,7 +41,7 @@ if (!isset($_SESSION['user_id'])) {
                         <li><a href="Acceuil.php" class="hover:text-blue-200 transition">Accueil</a></li>
                         <li><a href="Cantine.php" class="hover:text-blue-200 transition font-bold border-b-2 border-white">Cantine</a></li>
                         <li><a href="Dashboard.php" class="hover:text-blue-200 transition">Dashboard</a></li>
-                        <li><a href="Messagerie.php" class="hover:text-blue-200 transition">Messagerie</a></li>
+                        <li><a href="messagerie2.php" class="hover:text-blue-200 transition">Messagerie</a></li>
                     </ul>
                 </nav>
             </div>
