@@ -1,0 +1,73 @@
+/* --- Base --- */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* --- Le Main avec dégradé Gris vers Blanc --- */
+.main-gradient {
+    background: linear-gradient(to bottom, #e2e8f0 0%, #ffffff 100%);
+}
+
+/* --- Style des cartes d'application --- */
+.app-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.app-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    border-color: #3b82f6;
+}
+
+/* --- LOGO ADAPTÉ --- */
+.logo {
+    display: block !important;
+    /* Taille "normale" : on passe à 180px pour qu'on voit la différence */
+    width: auto !important; 
+    height: 100px !important;
+    
+    /* Alignement à gauche toute */
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    
+    /* Esthétique */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    /* Protection contre les débordements */
+    max-width: 100%; 
+}
+
+
+
+/* --- Animation Input --- */
+#search-input:focus {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    /* On peut choisir de centrer le logo sur mobile pour l'esthétique */
+    .logo {
+        margin: 0 auto 1rem auto; 
+        max-width: 120px;
+    }
+
+    nav ul {
+        justify-content: center;
+        margin-bottom: 0.5rem;
+    }
+}
