@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['envoyer_signalement']
                     <li><a href="Acceuil.php" class="hover:text-blue-200 transition font-bold border-b-2 border-white">Accueil</a></li>
                     <li><a href="Cantine.php" class="hover:text-blue-200 transition">Cantine</a></li>
                     <li><a href="Dashboard.php" class="hover:text-blue-200 transition">Dashboard</a></li>
-                    <li><a href="Messagerie.php" class="hover:text-blue-200 transition">Messagerie</a></li>
+                    <li><a href="messagerie2.php" class="hover:text-blue-200 transition">Messagerie</a></li>
                 </ul>
             </nav>
             <div class="w-full md:w-64 relative">
